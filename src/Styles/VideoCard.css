@@ -1,0 +1,29 @@
+.VideoCard{
+    COLOR:WHITE;      
+    padding:10px;
+    TRANSITION:transform 200ms ease-in;
+    text-align:center;
+    
+}
+.VideoCard :hover{
+    transform:scale(1.09)
+}
+
+
+.VideoCard > img{
+    height:200px;
+    object-fit:contain;
+    width:300px;
+}
+.VideoCard > h2{
+    padding-top:10px;
+   
+}
+
+.videoCard_stats{
+    display:none;
+}
+
+.VideoCard:hover>.videoCard_stats{
+    display:inline-block;
+}
